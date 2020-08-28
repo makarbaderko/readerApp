@@ -6,9 +6,7 @@ const cover = ({ image }) => {
   return (
     <View style={styles.div}>
       <Image
-        source={{
-          uri: { image },
-        }}
+        source={{uri: image}}
         style={styles.image}
       />
     </View>
